@@ -2,12 +2,12 @@
 # раз. Элементы нужно выводить в том порядке, в котором они встречаются в
 # списке.
 
-# import random
-# list1 = [random.randint(1, 10) for _ in range(10)]
-# print(list1)
-# for el in list1:
-#     if list1.count(el) == 1:
-#         print(el, end=' ')
+import random
+list1 = [random.randint(1, 10) for _ in range(10)]
+print(list1)
+for el in list1:
+    if list1.count(el) == 1:
+        print(el, end=' ')
 
 # 2. Дан список чисел. Посчитайте, сколько в нем пар элементов, равных друг другу.
 # Считается, что любые два элемента, равные друг другу образуют одну пару,
